@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>盒子模型</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        html,body，ul，li {
+            padding: 0px;margin: 0px;
+        }
+        .box01 {
+            width: 200px;
+            height: 200px;
+            background: #cccccc;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            /* border:10px solid red; 缩写*/
+            border-top: 20px solid blue;
+
+            padding: 20px 40px 60px 80px;
+
+            margin: 20px 40px 60px 80px;
+
+
+            margin: 0px auto;/*上下为0左右平分*/
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        border：
+        border-width：宽度
+        border-style：样式
+        border-color：颜色
+
+        border-top////
+
+    -->
+    <div class="box01">
+        降低数据库的重新理解哦我i解放昆仑山大家服那你村民显卡结课了家的发来慰问
+    </div>
+    <hr>
+
+    <style>
+        .box02 {
+            width: 0px;
+            border: 100px solid red;
+            border-top: 10px solid transparent;
+            /*透明*/
+            border-right: 30px solid transparent;
+            border-left: 30px solid transparent;
+
+        }
+    </style>
+    <div class="box02">
+    </div>
+    <br>
+    <br>
+    <br>
+    <style>
+        .box03 {
+            width: 200px;
+            height: 200px;
+            border-style:groove;
+        }
+    </style>
+    <div class="box03"></div>
+    <!--
+        padding
+        内边距，内容与border之间的距离
+        1个数字，四个边相同
+        2个数字，上下、左右
+        3个数字，上 、左右、下
+        4个数字，上、右、下、左
+        padding-top/bottom/left/right:
+
+    -->
+    <!--
+        margin
+        外边距
+        原理同padding；
+    -->
+
+</body>
+
+
+</html>

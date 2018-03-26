@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .box01 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 10px;
+
+        }
+
+        .box02 {
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+
+
+        }
+
+        .sp01 {
+            background-color: #ccc;
+            margin-right: 20px;
+        }
+
+        .sp02 {
+            background-color: black;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box01"></div>
+    <div class="box02"></div>
+    <!-- 块级盒子margin垂直外边距谁大取谁 -->
+    <span class="sp01">6666</span>
+    <span class="sp02">7777</span>
+    <!-- 行级盒子margin水平外边距累加 -->
+
+
+
+    <style>
+        .p01 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* border: 1px solid blue; */
+            overflow: hidden;
+
+        }
+
+        .c02 {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            margin-top: 25px;
+
+        }
+    </style>
+    <div class="p01">
+        <div class="c02"></div>
+    </div>
+    <!-- 父子盒子外边距合并：
+                    1.给父盒子加border；
+                    2.overflow：hidden
+                    3.给父盒子加padding -->
+</body>
+
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>定位</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <!--
+        1.普通的文档流
+          块：从上到下  行：从左到右
+        2.浮动
+          float
+        3.定位：
+          position：
+                   static
+                   relative：相对定位,参照物是元素原来的位置
+                   absolute：绝对定位,参照物是最近的定位的父元素
+                   fixed   ：固定定位
+          z-index:
+    -->
+    <style>
+        .container {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            margin: 20px auto;
+            position: relative;
+
+        }
+
+        .first,
+        .second,
+        .third {
+            width: 100px;
+            height: 100px;
+        }
+
+        .first {
+            background-color: blue
+        }
+
+        .second {
+            background-color: red;
+            position: absolute;
+            top: 0px;
+
+        }
+
+        .third {
+            background-color: green
+        }
+    </style>
+    <div class="container">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+    </div>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .side-bar{
+            width: 50px;
+            height: 150px;
+            background: red;
+            position:fixed;
+            top: 250px;
+            right: 0;
+
+        }
+    </style>
+    <div class="side-bar">
+
+    </div>
+</body>
+
+</html>

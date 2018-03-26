@@ -1,0 +1,780 @@
+@charset "utf-8";
+html, body, ul, li, h2, h3 {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.warpper {
+    width: 1200px;
+    margin: 0px auto;
+    /* 内容限制框 */
+}
+
+.l {
+    float: left;
+}
+
+.bgcolor {
+    background: #f4f5f6;
+}
+
+.header {
+    background: #f4f5f6;
+}
+
+.top-bar .left-menu, .top-bar .left-menu li {
+    float: left;
+}
+
+.top-bar .right-menu, .top-bar .right-menu li {
+    float: right;
+}
+
+.top-bar .left-menu, .top-bar .right-menu {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.imgsize {
+    width: 13.2px;
+}
+
+.header #ad {
+    color: #e70014;
+}
+
+.header a {
+    color: black;
+}
+
+.header a:hover {
+    color: #e70014;
+}
+
+.main-center div {
+    float: left;
+}
+
+.logo {
+    margin-top: 19px;
+}
+
+#ss {
+    padding-bottom: 50px;
+}
+
+.main-center .hot, .main-center .hot a {
+    color: #7a7a7a;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.main-center .hot {
+    margin-left: 195px;
+}
+
+.textsousuo {
+    margin-top: 19px;
+    margin-left: 180px;
+    width: 450px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #e70014;
+    padding: 0;
+    font-family: 微软雅黑;
+    float: left;
+    text-indent: 10px;
+    outline: none;
+}
+
+.sousuo {
+    margin-top: 19px;
+    height: 34px;
+    width: 70px;
+    background: #e70014;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+
+.car a {
+    margin-top: 19px;
+    margin-left: 30px;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    background: #ff9900;
+    color: #fff;
+    padding: 0 30px 0 20px;
+    font-size: 14px;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer {
+    margin-top: 20px;
+    background: #404040;
+}
+
+.fenlei {
+    height: 46px;
+    background: #e70014;
+    width: 215px;
+    position: relative;
+}
+
+.fenlei .a_hot1 {
+    position: relative;
+}
+
+/* ////////////////////////////////////// */
+
+.fenlei .a_hot1 .m_hot {
+    display: block;
+    background-image: url(../images/m_hot.png);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    ;
+}
+
+.fenlei div, .footer li a {
+    line-height: 44px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer li a {
+    display: block;
+    width: 92px;
+    height: 44px;
+    padding-left: 30px;
+}
+
+.footer li a:hover, #app:hover {
+    color: #e70014;
+    transition: all 0.3s ease;
+}
+
+.footer .app {
+    text-align: right;
+}
+
+#app {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.posi {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.posi a:hover {
+    color: #e70014;
+}
+
+.select {
+    margin-bottom: 15px;
+}
+
+.select .tuijian {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.select .change {
+    width: 75px;
+    font-size: 12px;
+    color: #7b7b7b;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.select .ico {
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../images/ico.png);
+    margin: 0 .3em;
+}
+
+.select .search {
+    width: 1000px;
+    height: 34px;
+    padding-right: 0px;
+    text-align: right;
+}
+
+.select .search lable span {
+    font-size: 5px;
+}
+
+.select .search .ip_inp {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.select .search .ip_sub {
+    width: 80px;
+    height: 34px;
+    background: #e70014;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.list ul {
+    margin-right: -12px;
+}
+
+.list li {
+    float: left;
+    width: 290px;
+    margin-right: 12px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.list li img {
+    width: 290px;
+}
+
+.list li .z {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+}
+
+.list li .z h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.list li .z .th {
+    font-size: 14px;
+    color: #858585;
+    padding-top: -5px;
+}
+
+.list li .z .gwc {
+    display: inline-block;
+    line-height: 24px;
+    border: 1px solid #b6b6b6;
+    color: #b6b6b6;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.list li .z .rmb {
+    font-size: 18px;
+    color: #e70014;
+}
+
+.list li .z h2 a:hover, .list li .z .gwc:hover {
+    color: #e70014;
+}
+
+.by ._left {
+    float: left;
+    width: 220px;
+    height: 315px;
+    position: relative;
+    background-image: url(http://resource.sinotruko2o.com/upload/w89b/image/2015/12/17/20151217162151_675.jpg);
+    margin-right: 12px;
+}
+
+.by .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-left: 15px;
+}
+
+.by .title a {
+    color: #3e2100;
+}
+
+.by .more {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.by .more a {
+    color: #3e2100;
+}
+
+.by .list {
+    font-size: 14px;
+    color: #636363;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+.by ._right li {
+    float: left;
+    width: 240px;
+    background: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #f1f1f1;
+    margin-left: -1px;
+    border-right-color: #d5d5d5;
+}
+
+.by ._right li img {
+    width: 240px;
+}
+
+.by ._right li .z {
+    background: #fff;
+    padding: 9px;
+    text-align: center;
+    height: 115px;
+}
+
+.by ._right li .z h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.by ._right li .z .th {
+    font-size: 14px;
+    color: #858585;
+    padding-top: -5px;
+}
+
+.by ._right li .z .gwc {
+    display: inline-block;
+    line-height: 24px;
+    border: 1px solid #b6b6b6;
+    color: #b6b6b6;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.by ._right li .z .rmb {
+    font-size: 18px;
+    color: #e70014;
+}
+
+.by ._right li .z h2 a:hover, .by ._right li .z .gwc:hover {
+    color: #e70014;
+}
+
+.js ._left {
+    float: left;
+    width: 220px;
+    height: 315px;
+    position: relative;
+    background-image: url(http://resource.sinotruko2o.com/upload/w89b/image/2015/12/17/20151217162544_181.jpg);
+    margin-right: 12px;
+}
+
+.js .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-left: 15px;
+}
+
+.js .title a {
+    color: #006092;
+}
+
+.js .more {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.js .more a {
+    color: #006092;
+}
+
+.js .list {
+    font-size: 14px;
+    color: #636363;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+.js ._right li {
+    float: left;
+    width: 240px;
+    background: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #f1f1f1;
+    margin-left: -1px;
+    border-right-color: #d5d5d5;
+}
+
+.js ._right li img {
+    width: 240px;
+}
+
+.js ._right li .z {
+    background: #fff;
+    padding: 9px;
+    text-align: center;
+    height: 115px;
+}
+
+.js ._right li .z h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.js ._right li .z .th {
+    font-size: 14px;
+    color: #858585;
+    padding-top: -5px;
+}
+
+.js ._right li .z .gwc {
+    display: inline-block;
+    line-height: 24px;
+    border: 1px solid #b6b6b6;
+    color: #b6b6b6;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.js ._right li .z .rmb {
+    font-size: 18px;
+    color: #e70014;
+}
+
+.js ._right li .z h2 a:hover, .by ._right li .z .gwc:hover {
+    color: #e70014;
+}
+
+.fd ._left {
+    float: left;
+    width: 220px;
+    height: 315px;
+    position: relative;
+    background-image: url(http://resource.sinotruko2o.com/upload/w89b/image/2015/12/17/20151217163340_982.jpg);
+    margin-right: 12px;
+}
+
+.fd .title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 46px;
+    margin-left: 15px;
+}
+
+.fd .title a {
+    color: #3e2100;
+}
+
+.fd .more {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.fd .more a {
+    color: #3e2100;
+}
+
+.fd .list {
+    font-size: 14px;
+    color: #636363;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+.fd ._right li {
+    float: left;
+    width: 240px;
+    background: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #f1f1f1;
+    margin-left: -1px;
+    border-right-color: #d5d5d5;
+}
+
+.fd ._right li img {
+    width: 240px;
+}
+
+.fd ._right li .z {
+    background: #fff;
+    padding: 9px;
+    text-align: center;
+    height: 115px;
+}
+
+.fd ._right li .z h2 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.fd ._right li .z .th {
+    font-size: 14px;
+    color: #858585;
+    padding-top: -5px;
+}
+
+.fd ._right li .z .gwc {
+    display: inline-block;
+    line-height: 24px;
+    border: 1px solid #b6b6b6;
+    color: #b6b6b6;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.fd ._right li .z .rmb {
+    font-size: 18px;
+    color: #e70014;
+}
+
+.fd ._right li .z h2 a:hover, .by ._right li .z .gwc:hover {
+    color: #e70014;
+}
+
+.end-bgc {
+    background: #e70014;
+    height: 84px;
+}
+
+.end-bgc .title li {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    font-size: 18px;
+    line-height: 53px;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.end-bgc .title li span {
+    display: block;
+    float: left;
+}
+
+.end-bgc .title li ._img01 {
+    background-image: url(http://www.sinotruko2o.com/resources/web/img/foot_ico.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.end-bgc .title li ._img02 {
+    background-image: url(http://www.sinotruko2o.com/resources/web/img/foot_ico.png);
+    background-repeat: no-repeat;
+    background-position: -188px 0px;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.end-bgc .title li ._img03 {
+    background-position: -126px 0px;
+    background-image: url(http://www.sinotruko2o.com/resources/web/img/foot_ico.png);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.end-bgc .title li ._img04 {
+    background-position: -63px 0px;
+    background-image: url(http://www.sinotruko2o.com/resources/web/img/foot_ico.png);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+._img01:hover, ._img02:hover, ._img03:hover, ._img04:hover {
+    transform: translate(-10px);
+}
+
+._img01, ._img02, ._img03, ._img04 {
+    transition: all 0.5s ease;
+}
+
+.foot {
+    height: 182px;
+    background: #3b3b3b;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-top: 1px solid #2e0100;
+    color: #d0d0d0;
+}
+
+.foot .list dl {
+    display: block;
+    float: left;
+}
+
+.foot .list dl dt {
+    font-size: 18px;
+    text-indent: 38px;
+    margin-bottom: 8px;
+}
+
+.foot .list dl dd {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.foot .list dl a {
+    color: rgb(208, 208, 208)
+}
+
+.foot .list dl .d4 {
+    margin-right: 16px;
+}
+
+.foot .list dl .d5 {
+    margin-right: 32px;
+}
+
+.foot li {
+    float: right;
+    background: #cecece;
+    width: 87px;
+    padding: 5px;
+    color: #333;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.foot .other {
+    float: right;
+    width: 175px;
+    height: 97px;
+    margin-top: 30px;
+}
+
+.foot .other .tel {
+    font-size: 26px;
+    color: #e70014;
+    line-height: 40px;
+}
+
+.foot .list dl dt a:hover {
+    color: #e70014;
+}
+
+.foot .list dl dd a:hover {
+    color: #e70014;
+    text-decoration: underline;
+}
+
+.side-bar {
+    width: 55px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    position: fixed;
+    top: 30%;
+    right: 0px;
+}
+
+.side-bar li {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.side-bar li a {
+    display: block;
+    padding: 7px 0
+}
+
+.side-bar li a:hover {
+    background: #e70014;
+    color: #fff;
+}
+
+.side-bar .li06 a:hover {
+    background-color: #fff;
+    color: #fff;
+}
+
+.side-bar i {
+    display: block;
+    width: 22px;
+    height: 25px;
+    background-image: url(../images/float_ico.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.side-bar .li01 i {
+    background-position: -158px 0px;
+}
+
+.side-bar .li02 i {
+    background-position: 0px 0px;
+}
+
+.side-bar .li03 i {
+    background-position: -32px 0px;
+}
+
+.side-bar .li04 i {
+    background-position: -95px 0px;
+}
+
+.side-bar .li05 i {
+    background-position: -126px 0px;
+}
+
+.side-bar .li06 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: 0;
+}
